@@ -1,0 +1,287 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3931,
+      "max": [
+        1.681119441986084,
+        0.57794725894927979,
+        0.49620124697685242
+      ],
+      "min": [
+        -1.6814199686050415,
+        -1.1668847799301147,
+        -0.24303776025772095
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 47172,
+      "componentType": 5126,
+      "count": 3931,
+      "max": [
+        0.99577164649963379,
+        0.99621570110321045,
+        0.99995839595794678
+      ],
+      "min": [
+        -0.99869334697723389,
+        -1,
+        -0.99985164403915405
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 3931,
+      "max": [
+        0.99999731779098511,
+        0.99991142749786377,
+        0.99880290031433105,
+        1
+      ],
+      "min": [
+        -0.99995440244674683,
+        -0.99995720386505127,
+        -0.99866831302642822,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3931,
+      "max": [
+        0.99588298797607422,
+        0.99597001075744629
+      ],
+      "min": [
+        0.0010069999843835831,
+        0.0010069999843835831
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 17778,
+      "max": [
+        3930
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Batuhan13 (https://sketchfab.com/Batuhan13)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/mm-red-man-ca8f5c463d104ef5a147e091ade98c5c",
+      "title": "M&M Red Man"
+    },
+    "generator": "Sketchfab-8.94.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 71112,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 31448,
+      "byteOffset": 71112,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 94344,
+      "byteOffset": 102560,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 62896,
+      "byteOffset": 196904,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 259800,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/MandM_baseColor.png"
+    },
+    {
+      "uri": "textures/MandM_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "MandM",
+      "normalTexture": {
+        "index": 1,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.25658223088988302
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "MandM_MandM_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "MandMLow.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        500,
+        0,
+        0,
+        0,
+        0,
+        499.99999999999335,
+        8.1460342471472929e-05,
+        0,
+        0,
+        -8.1460342471472929e-05,
+        499.99999999999335,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "MandM"
+    },
+    {
+      "mesh": 0,
+      "name": "MandM_MandM_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
+
